@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+body {
+  background: var(--body-bg-color);
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+/* === CONTAINER ======================================= */
+.container {
+  width: 33rem;
+  max-width: 40rem;
+  height: 100%;
+  margin: 10rem auto;
+
+  color: var(--purple);
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.container img {
+  width: 15rem;
+  border: 0.2rem var(--purple) solid;
+  border-radius: 99rem;
+  padding: 0.4rem;
+}
+
+.container p {
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+
+  font-weight: 300;
+}
+
+/* === LINK LIST ========================================= */
+.link-list {
+  text-transform: uppercase;
+  list-style: none;
+  background-color: var(--body-bg-color);
+  color: var(--purple);
+}
+
+.link-list li {
+  margin-bottom: 1.6rem;
+  padding: 1.6rem;
+  border: 0.2rem var(--purple) solid;
+  border-radius: 0.4rem;
+  text-align: center;
+}
+
+.link-list a {
+  color: var(--purple);
+  text-decoration: none;
+}
+
+/* === CONTACT LIST ======================================= */
+#contact-list {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.list-svg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  width: 2.2rem;
+}
