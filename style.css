@@ -45,23 +45,43 @@ body {
 
 /* === LINK LIST ========================================= */
 .link-list {
+  display: flex;
+  flex-direction: column;
   text-transform: uppercase;
   list-style: none;
   background-color: var(--body-bg-color);
   color: var(--purple);
+
+  width: 100%;
 }
 
+/* --- codigo nao serve
 .link-list li {
+  padding:1.6rem;
   margin-bottom: 1.6rem;
-  padding: 1.6rem;
+  
   border: 0.2rem var(--purple) solid;
   border-radius: 0.4rem;
+  
   text-align: center;
 }
+*/
 
 .link-list a {
   color: var(--purple);
   text-decoration: none;
+
+  display: block;
+  border: .1rem var(--purple) solid;
+  margin-bottom: 1.6rem;
+  padding: 1.6rem;
+  width: 100%;
+}
+
+.link-list a:hover {
+  color: var(--body-bg-color);
+  background-color: var(--purple);
+  transition: 300ms;
 }
 
 /* === CONTACT LIST ======================================= */
